@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7c6f187-3bb1-4f23-a8dc-3fd8ba50cc1c" name="Changes" comment="Update Starting project architecture">
+    <list default="true" id="e7c6f187-3bb1-4f23-a8dc-3fd8ba50cc1c" name="Changes" comment="Create NavBar">
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/UI/Icons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/UI/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Navbar" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,12 +41,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1718058837" />
+                    <option name="branchName" value="Navbar" />
+                    <option name="lastUsedInstant" value="1718209502" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="Navbar" />
-                    <option name="lastUsedInstant" value="1718039017" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1718209487" />
                   </RecentBranch>
                 </list>
               </option>
@@ -55,6 +57,9 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="vcs://C:/Users/mrcre/WebstormProjects/NewStyleForum/my-app/src/app/layout.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -63,29 +68,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mrcre/WebstormProjects/NewStyleForum",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "ts.external.directory.path": "C:\\Users\\mrcre\\WebstormProjects\\NewStyleForum\\my-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Navbar&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrcre/WebstormProjects/NewStyleForum&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26223776&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\mrcre\\WebstormProjects\\NewStyleForum\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app\public" />
-      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app\src\styles" />
-      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\public" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app" />
+      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app\src\components\UI" />
+      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app\src\app" />
+      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app\src\lib" />
+      <recent name="C:\Users\mrcre\WebstormProjects\NewStyleForum\my-app\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -115,7 +148,21 @@
       <workItem from="1718046052276" duration="1672000" />
       <workItem from="1718049390175" duration="2823000" />
       <workItem from="1718056883303" duration="2568000" />
-      <workItem from="1718059837792" duration="496000" />
+      <workItem from="1718059837792" duration="915000" />
+      <workItem from="1718193564796" duration="460000" />
+      <workItem from="1718194039863" duration="818000" />
+      <workItem from="1718194873022" duration="41000" />
+      <workItem from="1718194922489" duration="4970000" />
+      <workItem from="1718201604049" duration="194000" />
+      <workItem from="1718201813735" duration="1138000" />
+      <workItem from="1718203181793" duration="3199000" />
+      <workItem from="1718206489314" duration="1403000" />
+      <workItem from="1718208128055" duration="1173000" />
+      <workItem from="1718209397744" duration="27000" />
+      <workItem from="1718209434632" duration="242000" />
+      <workItem from="1718209751153" duration="6580000" />
+      <workItem from="1718218410205" duration="605000" />
+      <workItem from="1718219030633" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Starting project architecture">
       <option name="closed" value="true" />
@@ -133,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718059897089</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update gitignore">
+      <option name="closed" value="true" />
+      <created>1718060596692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718060596692</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create NavBar">
+      <option name="closed" value="true" />
+      <created>1718218570935</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718218570935</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +213,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="Navbar" />
                       </list>
                     </value>
                   </entry>
@@ -165,6 +228,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting project architecture" />
     <MESSAGE value="Update Starting project architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Starting project architecture" />
+    <MESSAGE value="Update gitignore" />
+    <MESSAGE value="Create NavBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create NavBar" />
   </component>
 </project>
